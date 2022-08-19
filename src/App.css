@@ -7,24 +7,24 @@
   margin: 0;
   padding: 0;
 }
+
 body {
-  background-image: url(https://img.wallpapic-br.com/i9351-527-731/medium/galaxia-espaco-sideral-astronomia-universo-imagem-de-fundo.jpg);
+  background-image: url('https://img.wallpapic-br.com/i9351-527-731/medium/galaxia-espaco-sideral-astronomia-universo-imagem-de-fundo.jpg');
 }
 
-header,
-.solar-system {
+header, .solar-system {
+  color: blanchedalmond;
   padding-bottom: 30px;
   text-align: center;
-  color: blanchedalmond;
 }
 
 .solar-system h2 {
+  color: bisque;
   font-weight: 500;
   margin: 10px 0;
-  text-transform: uppercase;
-  margin-top: 60px;
   margin-bottom: 60px;
-  color: bisque;
+  margin-top: 60px;
+  text-transform: uppercase;
 }
 
 .planet-card {
@@ -39,16 +39,15 @@ img {
 }
 
 .mission-card {
-  display: inline-block;
-  height: 100px;
-  width: 400px;
-  width: 15em;
   border: 1px solid gray;
   border-radius: 1em;
-  overflow: hidden;
+  color: beige;
+  display: inline-block;
+  height: 100px;
   margin-bottom: 2em;
-  padding: 0.5em 0;
   margin-left: 20px;
   margin-top: 20px;
-  color: beige;
+  overflow: hidden;
+  padding: 0.5em 0;
+  width: 15em;
 }
